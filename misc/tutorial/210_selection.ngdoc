@@ -118,7 +118,7 @@ auto-selects the first row once the data is loaded.
           $scope.gridApi.selection.clearSelectedRows();
 
           $scope.gridOptions.isRowSelectable = function(row){
-            if(row.entity.age > 30){
+            if(row.entity.age > 31){
               return false;
             } else {
               return true;
